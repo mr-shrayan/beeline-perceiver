@@ -50,3 +50,44 @@ label_7.place(x=50,y=420)
 Button(root1, text='Skip Guide...):' ,font=(20),width=20,bg="black",fg='white',command=get).place(x=380,y=580)
 
 root1.mainloop()
+
+##################   CHOICES  ##################
+
+
+root = Tk()
+
+root.geometry("500x500")
+
+root.title('Alley Vizualizer')
+
+entry_4 = StringVar()
+entry_1 = StringVar()
+entry_3 = StringVar()
+
+
+def getinfo():
+    main(entry_4.get(),entry_1.get(),entry_3.get())
+
+label_0 =Label(root,text="Select your Choices",width=20,font=("bold",30))
+label_0.place(x=20,y=40)
+
+label_5=Label(root,text="Algorithms",width=20,font=("bold",10))
+label_5.place(x=40,y=130)
+
+Algorithms =[
+        "Breadth First Search",
+        "A*",
+        "Dijikstra's",
+        "Best First Search",
+        "Swarm Algorithm",
+        "Convergent Swarm Algorithm",
+        "Bidirectional Swarm Algorithm"]
+
+
+
+droplist=OptionMenu(root,entry_4, *Algorithms)
+
+droplist.config(width=25)
+
+entry_4.set('Select Any Algorithm...')
+droplist.place(x=240,y=130)
