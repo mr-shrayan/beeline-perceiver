@@ -1,11 +1,11 @@
 # beeline-perceiver
 
 
-PROBLEM STATEMENT:
+<h2>PROBLEM STATEMENT:</h2>
 
 As Every one knows the major problem for travelling unknown places is that they dont know how to find the path to reach their destination.This project tries to give the solution to this problem by providing the shortest path from the source to the destination which user selects in the grid. One can implement it in JS but i had a constraint of using only python from college so it may not Visualize things as good as CSS. But PYgame Module also tries to provide some techniques to make things Visualize optimally.
 
-ALGORITHMS:
+<h2>ALGORITHMS:</h2>
 
 BREADTH FIRST SEARCH: Breadth First Search - Simple & Efficient Guarantees Shortest Path.
 A* - Combination of Dijikstra's and Breadth First Search Guarantees Shortest Path.
