@@ -7,13 +7,13 @@ As Every one knows the major problem for travelling unknown places is that they 
 
 <h3>ALGORITHMS USED:</h3>
 
-BREADTH FIRST SEARCH: Breadth First Search - Simple & Efficient Guarantees Shortest Path.
-Best First Search - Faster, Heuristic-Heavy of A* Algorithm Does Not Guarantees Shortest Path.
-A* - Combination of Dijikstra's and Breadth First Search Guarantees Shortest Path.
-Dijikstra's - Father of PathFinding Algorithm Guarantees Shortest Path.
-Swarm Algorithm - Combination of Dijikstra and A* Does Not Guarantees Shortest Path.
-Convergent Swarm Algorithm - Faster, Heuristic-Heavy version of Swarm Does Not Guarantees Shortest Path.
-Bidirectional Swarm Algorithm - Swarm From Both Sides Genrally, Does Not Guarantee the Shortest Path. But in this Implementation it will Find Shortest Path(May Be Not in some Cases)
+1) BREADTH FIRST SEARCH: Breadth First Search - Simple & Efficient Guarantees Shortest Path.<br>
+2) Best First Search - Faster, Heuristic-Heavy of A* Algorithm Does Not Guarantees Shortest Path.<br>
+3) A* - Combination of Dijikstra's and Breadth First Search Guarantees Shortest Path.<br>
+4) Dijikstra's - Father of PathFinding Algorithm Guarantees Shortest Path.<br>
+5) Swarm Algorithm - Combination of Dijikstra and A* Does Not Guarantees Shortest Path.<br>
+6) Convergent Swarm Algorithm - Faster, Heuristic-Heavy version of Swarm Does Not Guarantees Shortest Path.<br>
+7) Bidirectional Swarm Algorithm - Swarm From Both Sides Genrally, Does Not Guarantee the Shortest Path. But in this Implementation it will Find Shortest Path(May Be Not in some Cases)<br>
 
 <h3>APPLICATIONS:</h3>
 
