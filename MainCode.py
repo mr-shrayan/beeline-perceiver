@@ -91,3 +91,14 @@ droplist.config(width=25)
 
 entry_4.set('Select Any Algorithm...')
 droplist.place(x=240,y=130)
+
+label_1 =Label(root,text="Diagnol Neighbors", width=20,font=("bold",10))
+label_1.place(x=40,y=280)
+
+diagnol=["yes","no"]
+    
+option3=OptionMenu(root,entry_3,*diagnol)
+option3.place(x=240,y=280)
+
+entry_3.set('Choose Yes or No')
+option3.config(width=15)
