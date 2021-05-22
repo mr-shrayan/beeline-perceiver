@@ -22,7 +22,7 @@ root1.title('Guide')
 def get():
 	root1.destroy()
 
-label_0 =Label(root1,text="Alley Vizualizer",width=20,font=("bold",40))
+label_0 =Label(root1,text="Beeline Perceiver",width=20,font=("bold",40))
 label_0.place(x=200,y=40)
 
 label_5=Label(root1,text="Quick Guide",width=20,font=(20))
