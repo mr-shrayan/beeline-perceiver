@@ -3,7 +3,7 @@
 
 <h3>PROBLEM STATEMENT:</h3>
 
-As Every one knows the major problem for travelling unknown places is that they dont know how to find the path to reach their destination.This project tries to give the solution to this problem by providing the shortest path from the source to the destination which user selects in the grid. One can implement it in JS but i had a constraint of using only python from college so it may not Visualize things as good as CSS. But PYgame Module also tries to provide some techniques to make things Visualize optimally.
+Beeline Perceiver. As the name suggests that it decides the shortest path to traverse between 2 points. This is based on the problem of humans to decide what is the shortest path between 2 points. The algorithms used are listed below
 
 <h3>ALGORITHMS USED:</h3>
 
@@ -19,4 +19,4 @@ As Every one knows the major problem for travelling unknown places is that they 
 
 Artifial Intelligence(Is used to Search through the State Space while developing an Autonomous Agent.
 COMPUTER SCIENCE ( used to solve hard problems using State Space Eg. TSP,SAT,etc....
-Daily Life: one good example is Gooogle Maps.
+Daily Life: Google Maps.
