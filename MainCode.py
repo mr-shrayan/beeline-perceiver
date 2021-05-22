@@ -102,3 +102,53 @@ option3.place(x=240,y=280)
 
 entry_3.set('Choose Yes or No')
 option3.config(width=15)
+
+label_1 =Label(root,text="Obstracle percentage", width=20,font=("bold",10))
+label_1.place(x=40,y=200)
+
+Obstacleper =["0%","10%","20%","30%","40%","50%","100%"]
+    
+    #temp.set(Obstracleper[0])
+option2=OptionMenu(root,entry_1,*Obstacleper)
+option2.config(width=25)
+
+
+entry_1.set('Choose Obstacle percentage')
+option2.place(x=240,y=200)
+
+
+#Checkbutton(root,text="Female", variable=var2).place(x=290,y=330)
+
+Button(root, text='Submit' , width=20,bg="black",fg='white',command=getinfo).place(x=180,y=380)
+
+
+yel=(242, 227, 7)
+bl=(112,205, 226)
+blu=(0, 172, 205)
+RED = (190,0,0)
+GREEN = (0, 255, 0)
+BLUE = (0, 255, 0)
+YELLOW = (181, 181, 22)
+WHITE = (255, 255, 255)
+BLACK = (60,60,60)
+PURPLE = (128, 0, 128)
+ORANGE = (201, 103, 170)
+GREY = (128, 128, 128)
+TURQUOISE = (15,135,0)
+
+
+#CLASS
+
+class Spot:
+	def __init__(self, row, col,gap,gap1,width,height, total_rows,total_cols,diag):
+		self.row = row
+		self.col = col
+		self.x = row * gap
+		self.y = col * gap1
+		self.color = WHITE
+		self.neighbors = []
+		self.diag=diag
+		self.height=height
+		self.width = width
+		self.total_rows = total_rows
+		self.total_cols = total_cols
