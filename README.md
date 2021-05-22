@@ -17,6 +17,6 @@ Beeline Perceiver. As the name suggests that it decides the shortest path to tra
 
 <h3>APPLICATIONS:</h3>
 
-Artifial Intelligence(Is used to Search through the State Space while developing an Autonomous Agent.
-COMPUTER SCIENCE ( used to solve hard problems using State Space Eg. TSP,SAT,etc....
-Daily Life: Google Maps.
+Artifial Intelligence(Is used to Search through the State Space while developing an Autonomous Agent.<br>
+COMPUTER SCIENCE ( used to solve hard problems using State Space Eg. TSP,SAT,etc....<br>
+Daily Life: Google Maps.<br>
