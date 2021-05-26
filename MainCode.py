@@ -13,7 +13,7 @@ from tkinter import *
 WIDTH = 1530
 Height = 810
 
-############## GUIDE #######################
+############## GUIDE #################
 
 root1= Tk()
 root1.geometry("1000x700")
@@ -107,7 +107,7 @@ option3.place(x=240,y=280)
 entry_3.set('Choose Yes or No')
 option3.config(width=15)
 
-label_1 =Label(root,text="Obstracle percentage", width=20,font=("bold",10))
+label_1 =Label(root,text="Obstacle percentage", width=20,font=("bold",10))
 label_1.place(x=40,y=200)
 
 Obstacleper =["0%","10%","20%","30%","40%","50%","100%"]
