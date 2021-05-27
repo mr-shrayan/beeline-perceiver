@@ -22,7 +22,7 @@ root1.title('Guide')
 def get():
 	root1.destroy()
 
-label_0 =Label(root1,text="Beeline Perceiver",width=20,font=("bold",40))
+label_0 =Label(root1,text="    Beeline Perceiver",width=20,font=("bold",40),)
 label_0.place(x=200,y=40)
 
 label_5=Label(root1,text="Quick Guide",width=20,font=(20))
@@ -48,7 +48,7 @@ label_6.place(x=50,y=380)
 label_7=Label(root1,text="6. Press Ctrl+C to clear all the obstacle this will clear the entire Board including Start and End Node.\n",font=(10))
 label_7.place(x=50,y=420)
 
-Button(root1, text='Skip Guide):' ,font=(20),width=20,bg="black",fg='white',command=get).place(x=380,y=580)
+Button(root1, text='Move Next' ,font=(20),width=20,bg="black",fg='white',command=get).place(x=380,y=580)
 
 root1.mainloop()
 
