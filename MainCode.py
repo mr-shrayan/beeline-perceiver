@@ -8,6 +8,7 @@ import random
 from tkinter import *
 
 
+
 WIDTH = 1530
 Height = 810
 
