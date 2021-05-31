@@ -57,7 +57,7 @@ root1.mainloop()
 
 root = Tk()
 
-root.geometry("500x500")
+root.geometry("600x600")
 
 root.title('Beeline Perceiver')
 
