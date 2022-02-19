@@ -7,7 +7,7 @@ Beeline Perceiver. As the name suggests that it decides the shortest path to tra
 
 <h3>ALGORITHMS USED:</h3>
 
-1) BREADTH FIRST SEARCH: Breadth First Search - Simple & Efficient Guarantees Shortest Path.<br>
+1) BREADTH FIRST SEARCH(BFS): Breadth First Search - Simple & Efficient Guarantees Shortest Path.<br>
 2) Best First Search - Faster, Heuristic-Heavy of A* Algorithm Does Not Guarantees Shortest Path.<br>
 3) A* - Combination of Dijikstra's and Breadth First Search Guarantees Shortest Path.<br>
 4) Dijikstra's - Father of PathFinding Algorithm Guarantees Shortest Path.<br>
